@@ -1,0 +1,9 @@
+.tabsContent {
+  background-color: #1a1a1a;
+  margin-top: 20px;
+  padding: 25px 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
