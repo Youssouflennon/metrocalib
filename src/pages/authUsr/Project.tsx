@@ -368,7 +368,8 @@ const Project = () => {
             onClick={() => navigate("/project")}
             className="bg-[#599E0E] text-white px-8 py-3 rounded-full font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 mt-8"
           >
-            Let’s get to Work
+            
+          {t("lets.do")}
           </button>
         </div>
         {/* Footer */}
