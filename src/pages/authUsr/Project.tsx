@@ -223,16 +223,13 @@ const Project = () => {
             <h2 className="text-4xl font-bold text-[#599E0E] mb-12">
               <h2 className="text-4xl font-semibold text-gray-700 mb-12 text-center">
                 <span className="font-bold border-b-4 border-green-600 pb-1">
-                  Our Project
+                  {t("our.project")}
                 </span>
               </h2>
             </h2>
+
             <p className="text-gray-700 max-w-3xl mx-auto mb-12">
-              Discover how METROCALIB is transforming the healthcare landscape
-              through innovative projects and successful partnerships. Each
-              achievement demonstrates our commitment to excellence and our
-              ability to meet the unique needs of our clients in the biomedical
-              field..
+              {t("unique.how")}
             </p>
 
             {/* grille 2 colonnes */}
@@ -269,7 +266,8 @@ const Project = () => {
         <section className="py-28 bg-gray-50">
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-4xl font-bold text-[#599E0E] mb-12">
-              <span className="text-[#1aafc9e2]"> Our</span> Partners
+              <span className="text-[#1aafc9e2]"> </span>
+              {t("ou.partners")}
             </h2>
 
             <div className="overflow-hidden">
@@ -326,13 +324,12 @@ const Project = () => {
         <section className="py-20">
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-4xl font-bold text-[#599E0E] mb-12">
-              <span className="text-[#1aafc9e2]"> Our</span> Achievements
+              <span className="text-[#1aafc9e2]"> </span>
+              {t("bio.achieve")}
             </h2>
-            <p className="text-gray-700 max-w-3xl mx-auto mb-12">
-              At METROCALIB, we take pride in our innovative approach to
-              biomedical solutions, ensuring that our services not only meet
-              your needs but also enhance the overall healthcare experience.
-            </p>
+
+            <p className="text-gray-700 max-w-3xl mx-auto mb-12"></p>
+            {t("at.needs")}
 
             {/* grille 2 colonnes */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -362,7 +359,7 @@ const Project = () => {
             <img src="file-icon.png" alt="Hero equipment" className="my-4" />
           </div>
           <h3 className="text-2xl font-bold text-[#599E0E] mb-4">
-            Have a Project in mind?
+            {t("have.mind")}
           </h3>
           <button
             onClick={() => navigate("/project")}
