@@ -510,7 +510,7 @@ viewport = {{ once: false, amount: 0.2 }}
     </h3>
     < p className = "text-gray-700 mb-4 font-bold" > { t(card.text) } </p>
       < a href = "#" className = "text-[#599E0E] font-semibold" >
-
+  Learn More & gt;
         {t("lear.mo")}
 </a>
   </motion.div>
