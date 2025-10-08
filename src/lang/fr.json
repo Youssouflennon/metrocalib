@@ -45,6 +45,7 @@
   "have.a": "Vous avez un projet en tête ?",
   "let.get": "Mettons-nous au travail",
   "your.part": "“votre partenaire en matiere d'excellence biomedical”",
+<<<<<<< HEAD
   "blog":"Blog",
   "METROCALIB":"METROCALIB est une entreprise biomédicale leader en Afrique, spécialisée dans la vente d'équipements médicaux et offrant des services complets aux établissements de santé. Notre mission est d'améliorer les normes de santé grâce à des produits de qualité et un accompagnement expert.",
   "video":"Découvrez notre vidéo",
@@ -70,4 +71,12 @@
   "Information": "Pour obtenir plus d'informations",
   "Information-details": "Notre équipe dédiée est là pour répondre à vos questions et vous fournir un support personnalisé, vous aidant à prendre des décisions éclairées pour votre établissement de santé."
 
+=======
+  "unique.how":"Découvrez comment METROCALIB transforme le paysage de la santé grâce à des projets innovateurs et à des partenariats fructueux. Chaque réalisation témoigne de notre engagement envers l'excellence et de notre capacité à répondre aux besoins uniques de nos clients du domaine biomédical.",
+  "our.project":"Notre projet",
+  "ou.partners":"Nos Partenaires",
+  "bio.achieve":"Nos Réalisations",
+  "at.needs":"Chez METROCALIB, nous sommes fiers de notre approche innovante des solutions biomédicales, garantissant que nos services répondent non seulement à vos besoins, mais améliorent également l'expérience globale des soins de santé.",
+  "have.mind":"Vous avez un projet en tête ?"
+>>>>>>> 572d673dd4a0fe313132a9a0ee2d578285634320
 }

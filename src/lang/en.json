@@ -50,6 +50,7 @@
   "supply": "Equipment Supply",
   "patient.care": "We provide high-quality, certified medical devices from renowned global manufacturers, ensuring that healthcare facilities have access to the latest technology and equipment needed for optimal patient care.",
   "training": "Training & Consulting",
+<<<<<<< HEAD
 
 
   "blog":"Blog",
@@ -78,4 +79,12 @@
 
   "Information":"InformTo Get More Information",
   "Information-details":"Our dedicated team is here to answer your questions and provide personalized support, helping you make informed decisions for your healthcare facility."
+=======
+  "unique.how":"Discover how METROCALIB is transforming the healthcare landscape  through innovative projects and successful partnerships. Each  achievement demonstrates our commitment to excellence and our  ability to meet the unique needs of our clients in the biomedical field..",
+  "our.project":"our project",
+  "ou.partners":"Our Partners",
+  "bio.achieve":"Our Achievements",
+  "at.needs":" At METROCALIB, we take pride in our innovative approach to biomedical solutions, ensuring that our services not only meet your needs but also enhance the overall healthcare experience.",
+  "have.mind":" Have a Project in mind ?"
+>>>>>>> 572d673dd4a0fe313132a9a0ee2d578285634320
 }
