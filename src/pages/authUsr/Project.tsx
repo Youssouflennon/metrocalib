@@ -146,8 +146,8 @@ viewport = {{ once: false, amount: 0.3 }}
                   href = { item.href }
                   onClick = {() => setActive(item.name)}
 className = {`font-bold transition-colors ${active === item.name
-    ? "text-[#599E0E]"
-    : "text-gray-700 hover:text-green-500"
+  ? "text-[#599E0E]"
+  : "text-gray-700 hover:text-green-500"
   }`}
                 >
   { item.name }
@@ -198,7 +198,7 @@ className = {`font-bold transition-colors ${active === item.name
   `flex flex-col justify-start items-start gap-2 ${active === item.name
     ? "text-[#599E0E] bg-green-50"
     : "text-gray-800"
-  }`
+    }`
 }
                       >
   { item.name }
@@ -230,19 +230,19 @@ className = {`font-bold transition-colors ${active === item.name
         <h2 className="text-4xl font-semibold text-gray-700 mb-12 text-center" >
           <span className="font-bold border-b-4 border-green-600 pb-1" >
 
-               
-              {t("our.project")}
-              </span>
 
-              </h2>
-              </h2>
+            { t("our.project") }
+            </span>
+
+            </h2>
+            </h2>
 
 
-              < p className = "text-gray-700 max-w-3xl mx-auto mb-12" >
+            < p className = "text-gray-700 max-w-3xl mx-auto mb-12" >
 
-                {t("unique.how")}
+              { t("unique.how") }
 
-                </p>
+              </p>
 
 {/* grille 2 colonnes */ }
 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2" >
@@ -279,13 +279,13 @@ className = "w-full h-full object-cover transition-transform duration-500 group-
   < section className = "py-28 bg-gray-50" >
     <div className="container mx-auto px-6 text-center" >
       <h2 className="text-4xl font-bold text-[#599E0E] mb-12" >
-  <span className="text-[#1aafc9e2]" >  </span> 
-          {t("ou.partners")}
-          </h2>
+        <span className="text-[#1aafc9e2]" > </span>
+{ t("ou.partners") }
+</h2>
 
-          < div className = "overflow-hidden" >
-            <div className="flex animate-marquee space-x-12" >
-              <img
+  < div className = "overflow-hidden" >
+    <div className="flex animate-marquee space-x-12" >
+      <img
                   src="logo-minsante.png"
 alt = "Hero equipment"
 className = "h-24 object-contain"
@@ -338,14 +338,14 @@ className = "h-24 object-contain"
   < section className = "py-20" >
     <div className="container mx-auto px-6 text-center" >
       <h2 className="text-4xl font-bold text-[#599E0E] mb-12" >
-  <span className="text-[#1aafc9e2]" > </span> 
-            { t("bio.achieve") }
-    </h2>
+        <span className="text-[#1aafc9e2]" > </span>
+{ t("bio.achieve") }
+</h2>
 
-          < p className = "text-gray-700 max-w-3xl mx-auto mb-12" >
-           
-            </p>
-            {t("at.needs")}
+  < p className = "text-gray-700 max-w-3xl mx-auto mb-12" >
+
+    </p>
+{ t("at.needs") }
 
 {/* grille 2 colonnes */ }
 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2" >
@@ -376,11 +376,11 @@ className = "w-full h-full object-cover"
       <img src="file-icon.png" alt = "Hero equipment" className = "my-4" />
         </div>
         < h3 className = "text-2xl font-bold text-[#599E0E] mb-4" >
-         
-          {t("have.mind")}
-            </h3>
-            < button
-            onClick = {() => navigate("/project")}
+
+          { t("have.mind") }
+          </h3>
+          < button
+onClick = {() => navigate("/project")}
 className = "bg-[#599E0E] text-white px-8 py-3 rounded-full font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 mt-8"
   >
   Let’s get to Work
