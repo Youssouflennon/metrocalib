@@ -179,13 +179,12 @@ const Equipment = () => {
           <div className="container mx-auto px-6">
             <h2 className="text-4xl font-semibold text-gray-700 mb-12 text-center">
               <span className="font-bold border-b-4 border-green-600 pb-1">
-                Our Medical Equipment
+                {t("Equipment")}
               </span>
             </h2>
 
             <p className="mb-14 text-center">
-              Discover some of our high-quality medical equipment, designed to
-              improve healthcare.
+              {t("equipment-description")}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Carte 1 */}
@@ -203,11 +202,10 @@ const Equipment = () => {
                   className="w-80 h-80 object-contain"
                 />
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
-                  Electrocardiographe
+                  {t("Electrocardiographe")}
                 </h3>
                 <p className="text-gray-700">
-                  Mesure l’activité électrique du cœur. Idéal pour diagnostics
-                  cardiovasculaires.
+                  {t("electrocardiographe-details")}
                 </p>
               </motion.div>
 
@@ -332,12 +330,11 @@ const Equipment = () => {
           <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-1 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold  mb-12 text-center">
-                To Get More Information
+                {t("Information")}
               </h2>
               <p className="my-4 text-center">
-                Our dedicated team is here to answer your questions and provide
-                personalized support, helping you make informed decisions for
-                your healthcare facility.
+                {t("Information-details")}
+              
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {cards.map((card, index) => (

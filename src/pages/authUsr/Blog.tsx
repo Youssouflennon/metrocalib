@@ -179,14 +179,11 @@ const Blog = () => {
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-4xl font-semibold text-gray-700 mb-12 text-center">
               <span className="font-bold border-b-4 border-green-600 pb-1">
-                Blog
+             {t("blog")}   
               </span>
             </h2>
             <p className="text-gray-700 max-w-3xl mx-auto mb-12">
-              METROCALIB is a leading biomedical company in Africa, specializing
-              in the sale of medical equipment and providing comprehensive
-              services to healthcare facilities. Our mission is to enhance
-              healthcare standards through quality products and expert support.
+               {t("METROCALIB")}  
             </p>
 
             {/* grille 2 colonnes */}
@@ -255,7 +252,7 @@ const Blog = () => {
         <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-3xl font-bold text-[#599E0E] mb-8">
-              Découvrez notre vidéo
+              {t("video")}
             </h2>
 
             <video
@@ -293,17 +290,10 @@ const Blog = () => {
         <section className="bg-gradient-to-r from-green-100 to-blue-100 py-20 my-14">
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-4xl font-bold text-[#599E0E] mb-12 text-center">
-              Meet Our Team
+              {t("Teams")}
             </h2>
             <p className="text-gray-700 max-w-3xl mx-auto mb-12">
-              At METROCALIB, our team is comprised of dedicated professionals
-              with diverse expertise in the biomedical field. We are passionate
-              about delivering exceptional service and innovative solutions to
-              enhance healthcare delivery. With a strong commitment to
-              collaboration and continuous improvement, our experts work
-              together to ensure that every project meets the highest standards
-              of quality and efficiency. Together, we strive to empower
-              healthcare institutions and contribute positively to patient care.
+              {t("team-description")}
             </p>
 
             {/* grille 2 colonnes */}
@@ -332,10 +322,10 @@ const Blog = () => {
         <section className="py-20 my-14">
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-4xl font-bold text-[#599E0E] mb-12 text-center">
-              Our platforms
+              {t("platforms")}
             </h2>
             <p className="text-gray-700 max-w-3xl mx-auto mb-12">
-              Here are the digital solutions we offer to you, contact us
+              {t("platforms-description")}
             </p>
 
             {/* grille 2 colonnes */}
