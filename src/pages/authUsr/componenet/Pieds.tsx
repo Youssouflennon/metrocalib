@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+import { useTranslation } from "src/hooks/useTranslation";
 
 const Pieds = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <footer className="bg-gradient-to-r from-white via-white/70 to-white/90 border-t border-gray-200">
@@ -11,13 +13,10 @@ const Pieds = () => {
               <img src="/logo.png" alt="Metrocalib" className="h-10" />
             </div>
             <p className="text-gray-700 text-sm mb-4">
-              “Your Partner in Biomedical Excellence”
+              {t("titre")}
               <br />
-              <span className="font-medium">Introduction:</span> Welcome to
-              METROCALIB, your trusted African biomedical specialist. We provide
-              top-tier medical equipment and unparalleled service to ensure
-              every healthcare facility operates optimally. Discover how we can
-              elevate your healthcare standards.
+              <span className="font-medium"> {t("Introduction")} :</span> 
+              {t("titre-description")}
             </p>
             <div className="flex space-x-4 text-gray-600 text-lg">
               <i className="fab fa-facebook"></i>
@@ -30,36 +29,36 @@ const Pieds = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Quick Links</h3>
+            <h3 className="font-semibold text-gray-900 mb-4"> {t("Quick-Links")} </h3>
             <ul className="space-y-2 text-sm text-gray-700">
-              <li className="hover:text-green-600 cursor-pointer">› Home</li>
-              <li className="hover:text-green-600 cursor-pointer">› About</li>
+              <li className="hover:text-green-600 cursor-pointer">› {t("Hom")} </li>
+              <li className="hover:text-green-600 cursor-pointer">› {t("About")} </li>
               <li className="hover:text-green-600 cursor-pointer">
-                › Services
+                › {t("Contact")}
               </li>
               <li className="hover:text-green-600 cursor-pointer">
-                › Portfolio
+                › {t("Portfolio")}
               </li>
               <li className="hover:text-green-600 cursor-pointer">
-                › Services
+                › {t("Services")}
               </li>
-              <li className="hover:text-green-600 cursor-pointer">› Quote</li>
+              <li className="hover:text-green-600 cursor-pointer">› {t("Quote")} </li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Contact Info</h3>
+            <h3 className="font-semibold text-gray-900 mb-4"> {t("contact")} </h3>
             <p className="text-sm">
-              <span className="font-semibold text-green-600">Address:</span>{" "}
-              Bastos II, derrière usine , Yaoundé, Cameroun
+              <span className="font-semibold text-green-600"> {t("address")} </span>{" "}
+              {t("address-details")}
             </p>
             <p className="text-sm">
               <span className="font-semibold text-green-600">Email:</span>{" "}
               sinfo@metrocalib.com
             </p>
             <p className="text-sm">
-              <span className="font-semibold text-green-600">Phone:</span>{" "}
+              <span className="font-semibold text-green-600"> {t("Phone")} :</span>{" "}
               (+237)222-211-913
             </p>
             <p className="text-sm">
@@ -70,9 +69,9 @@ const Pieds = () => {
 
           {/* Newsletter */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Newsletter</h3>
+            <h3 className="font-semibold text-gray-900 mb-4"> {t("Newsletter")} </h3>
             <p className="text-sm text-gray-700 mb-3">
-              Stay always in touch! Subscribe to our newsletter.
+              {t("newsletter-description")}
             </p>
             <div className="flex flex-col sm:flex-row gap-0">
               <input
@@ -81,7 +80,7 @@ const Pieds = () => {
                 className="w-full px-4 py-2 rounded-full border bg-white border-gray-300 focus:outline-none"
               />
               <button className="px-1 py-1 border-0 bg-[#599E0E]   border-black rounded-lg text-sm font-medium hover:bg-green-700 transition">
-                Subscribe
+                {t("Subscribe")}
               </button>
             </div>
           </div>
