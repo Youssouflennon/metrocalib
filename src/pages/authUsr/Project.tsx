@@ -123,9 +123,7 @@ className = "bg-white border border-gray-500 text-gray-700 px-3 py-1 rounded-ful
     </div>
     < div className = "container mx-auto px-14" >
       <header className="" >
-
-        Gabriel, [10 / 8 / 2025 5:00 AM]
-        < div className = "container mx-auto px-6 py-4 flex justify-between items-center" >
+        <div className="container mx-auto px-6 py-4 flex justify-between items-center" >
           {/* Logo à 50% */ }
           < div className = "flex-1 basis-1/2" >
             <motion.img
@@ -228,17 +226,22 @@ className = {`font-bold transition-colors ${active === item.name
 
   < section className = "py-20" >
     <div className="container mx-auto px-6 text-center" >
-
-      < h2 className = "text-4xl font-bold text-[#599E0E] mb-12" >
+      <h2 className="text-4xl font-bold text-[#599E0E] mb-12" >
         <h2 className="text-4xl font-semibold text-gray-700 mb-12 text-center" >
           <span className="font-bold border-b-4 border-green-600 pb-1" >
+
+
             { t("our.project") }
             </span>
+
             </h2>
             </h2>
 
+
             < p className = "text-gray-700 max-w-3xl mx-auto mb-12" >
+
               { t("unique.how") }
+
               </p>
 
 {/* grille 2 colonnes */ }
@@ -339,29 +342,29 @@ className = "h-24 object-contain"
 { t("bio.achieve") }
 </h2>
 
-  < p className = "text-gray-700 max-w-3xl mx-auto mb-12" > </p>
+  < p className = "text-gray-700 max-w-3xl mx-auto mb-12" >
+
+    </p>
 { t("at.needs") }
 
 {/* grille 2 colonnes */ }
 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2" >
-  {
-    images1.
-
-      
-    map((src, index) => (
-      <motion.div
+{
+  images1.map((src, index) => (
+    <motion.div
                   key= { src }
-className = "w-full h-70 overflow-hidden rounded-lg"
-variants = { imageVariant }
-initial = "hidden"
-whileInView = "visible"
-transition = {{ duration: 0.8, delay: index * 0.2 }}
+                  className = "w-full h-70 overflow-hidden rounded-lg"
+                  variants = { imageVariant }
+                  initial = "hidden"
+                  whileInView = "visible"
+                  transition = {{ duration: 0.8, delay: index * 0.2 }}
 viewport = {{ once: false, amount: 0.2 }}
                 >
-  <img src={ src }/>
+  <img
+                    src={ src }
 alt = "Hero equipment"
 className = "w-full h-full object-cover"
-                         
+  />
   </motion.div>
               ))}
 </div>
@@ -373,6 +376,7 @@ className = "w-full h-full object-cover"
       <img src="file-icon.png" alt = "Hero equipment" className = "my-4" />
         </div>
         < h3 className = "text-2xl font-bold text-[#599E0E] mb-4" >
+
           { t("have.mind") }
           </h3>
           < button
