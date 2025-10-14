@@ -219,13 +219,12 @@ const Service = () => {
                     {t("training")}
                   </h3>
                   <p className="text-gray-700 mb-4 font-bold">
-                    We empower healthcare professionals through comprehensive
-                    training programs and technical consulting, enhancing staff
-                    skills and ensuring effective utilization of medical
-                    equipment for improved healthcare outcomes.
+                    { t("ad.ensuring") }
                   </p>
+                    
                   <a href="#" className="text-[#599E0E] font-semibold">
-                    Learn More &gt;
+  
+                    {t("le.mo")}
                   </a>
                 </motion.div>
 
@@ -246,16 +245,16 @@ const Service = () => {
                     />
                   </div>
                   <h3 className="text-xl font-bold text-[#599E0E] mb-3">
-                    Installation & Maintenance
+                 
+                    {t("main.ten")}
                   </h3>
                   <p className="text-gray-700 mb-4 font-bold">
-                    Our dedicated team offers expert installation and ongoing
-                    maintenance services, including 24/7 emergency support, to
-                    ensure that all medical equipment operates smoothly and
-                    efficiently, minimizing downtime.
+                  
+                      {t("off.er")}
                   </p>
                   <a href="#" className="text-[#599E0E] font-semibold">
-                    Learn More &gt;
+  
+                    {t("l.mor")}
                   </a>
                 </motion.div>
               </div>
@@ -284,19 +283,12 @@ const Service = () => {
                   className="rounded-lg my-2"
                 />
                 <h2 className="text-3xl font-bold  mb-6">
-                  Strategic support and innovation for healthcare stakeholders{" "}
+ 
+                    {t("stake.holders")}
                 </h2>
                 <p className="text-gray-700">
-                  METROCALIB redefines the approach to biomedical services by
-                  integrating innovative solutions and creative problem-solving.
-                  We understand that the healthcare sector needs more than just
-                  equipment; it requires tailored strategies that address
-                  specific challenges. Through our comprehensive consulting,
-                  training, and ongoing support, we help you adapt to evolving
-                  healthcare demands while maintaining a strong brand presence.
-                  Our commitment to creativity ensures that healthcare
-                  institutions not only meet their operational goals but also
-                  inspire trust and confidence in their communities.
+             
+                    {t("goal.meet")}
                 </p>
               </div>
             </motion.div>
@@ -350,19 +342,12 @@ const Service = () => {
                   className="rounded-lg my-2"
                 />
                 <h2 className="text-2xl font-bold  mb-6">
-                  Transforming Healthcare with Creativity{" "}
+                     { " " }
+                  {t("with.create")}
                 </h2>
                 <p className="text-gray-700">
-                  METROCALIB redefines the approach to biomedical services by
-                  integrating innovative solutions and creative problem-solving.
-                  We understand that the healthcare sector needs more than just
-                  equipment; it requires tailored strategies that address
-                  specific challenges. Through our comprehensive consulting,
-                  training, and ongoing support, we help you adapt to evolving
-                  healthcare demands while maintaining a strong brand presence.
-                  Our commitment to creativity ensures that healthcare
-                  institutions not only meet their operational goals but also
-                  inspire trust and confidence in their communities.
+                 
+                    {t("in.inspire")}
                 </p>
               </div>
             </motion.div>
@@ -388,21 +373,12 @@ const Service = () => {
                   className="rounded-lg my-2"
                 />
                 <h2 className="text-3xl font-bold  mb-6">
-                  Strategic Experiences and visual Appeal{" "}
+                          { " " }
+                  {t("ex.now")}
                 </h2>
                 <p className="text-gray-700">
-                  At METROCALIB, we leverage our strategic experience in the
-                  biomedical industry to provide solutions that are not only
-                  functional but also visually appealing. Our expertise in
-                  sourcing and maintaining high-quality medical equipment
-                  ensures that your healthcare facility operates at its best
-                  while delivering a professional and trustworthy image to
-                  patients and partners. With our commitment to excellence, we
-                  create designs and systems that enhance the overall user
-                  experience, making it easier for healthcare professionals to
-                  trust and utilize the equipment. Our approach combines
-                  technical proficiency with aesthetic considerations, ensuring
-                  a seamless integration of technology and care.
+                  
+                    {t("mak.com")}
                 </p>
               </div>
             </motion.div>
@@ -432,9 +408,8 @@ const Service = () => {
               </span>
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto mb-12">
-              At METROCALIB, we adhere to rigorous procedures designed to
-              guarantee quality, compliance, and efficiency at every stage of
-              our operations.
+              
+                {t("to.rig")}
             </p>
 
             {/* Grille */}
@@ -442,75 +417,82 @@ const Service = () => {
               {/* Card 1 */}
               <div className="bg-white shadow-md rounded-xl p-6 text-left">
                 <h3 className="text-green-600 font-semibold text-lg mb-3">
-                  1. Technical Audit & Needs Assessment
+  1.
+                    {t("au.dit")}
                 </h3>
-                <ul className="list-disc list-inside text-gray-600 space-y-1">
-                  <li>
-                    On-site evaluation conducted by certified biomedical
-                    engineers.
-                  </li>
-                  <li>Diagnosis of existing equipment.</li>
-                  <li>Customized solution proposal.</li>
+  < ul className = "list-disc list-inside text-gray-600 space-y-1" >
+    <li>
+   
+    { t("sm.ile") }
+    </li>
+    < li > { t("dia.gn") } </li>
+    < li > { t("cu.st") } </li>
                 </ul>
               </div>
 
               {/* Card 2 */}
               <div className="bg-white shadow-md rounded-xl p-6 text-left">
                 <h3 className="text-green-600 font-semibold text-lg mb-3">
-                  2. Procurement & Logistics
+                  2. {t("pro.cu")}
                 </h3>
-                <ul className="list-disc list-inside text-gray-600 space-y-1">
-                  <li>Supplier selection with CE/FDA-certified devices.</li>
-                  <li>Inventory management & express ordering.</li>
-                  <li>Pre-delivery quality control.</li>
+  < ul className = "list-disc list-inside text-gray-600 space-y-1" >
+    <li>{ t("with.ce") } </li>
+    < li > { t("ex.pe") } </li>
+    < li > { t("con.trol") } </li>
                 </ul>
               </div>
 
               {/* Card 3 */}
               <div className="bg-white shadow-md rounded-xl p-6 text-left">
                 <h3 className="text-green-600 font-semibold text-lg mb-3">
-                  3. Delivery & Installation
+  3.
+                    {t("de.li")}
                 </h3>
-                <ul className="list-disc list-inside text-gray-600 space-y-1">
-                  <li>Secure transportation & packaging.</li>
-                  <li>Professional installation.</li>
-                  <li>Performance testing & validation.</li>
+  < ul className = "list-disc list-inside text-gray-600 space-y-1" >
+    <li>{ t("se.cure") } </li>
+    < li > { t("tr.re") } </li>
+    < li > { t("t.re") } </li>
                 </ul>
               </div>
 
               {/* Card 4 */}
               <div className="bg-white shadow-md rounded-xl p-6 text-left">
                 <h3 className="text-green-600 font-semibold text-lg mb-3">
-                  4. Training & Handover
+  4. 
+                    {t("ta.in")}
                 </h3>
-                <ul className="list-disc list-inside text-gray-600 space-y-1">
-                  <li>Hands-on training for staff.</li>
-                  <li>User manuals (printed & digital).</li>
-                  <li>Certification with attestations.</li>
+  < ul className = "list-disc list-inside text-gray-600 space-y-1" >
+    <li>{ t("ha.nd") } </li>
+    < li > { t("us.er") } </li>
+    < li > { t("ce.ti") } </li>
                 </ul>
               </div>
 
               {/* Card 5 */}
               <div className="bg-white shadow-md rounded-xl p-6 text-left">
                 <h3 className="text-green-600 font-semibold text-lg mb-3">
-                  5. Maintenance & After-Sales Support
+  5. 
+                    {t("su.po")}
                 </h3>
-                <ul className="list-disc list-inside text-gray-600 space-y-1">
-                  <li>24/7 maintenance contracts.</li>
-                  <li>Computerized tracking system.</li>
-                  <li>Regular updates & recalibration.</li>
+  < ul className = "list-disc list-inside text-gray-600 space-y-1" >
+    <li>
+    { t("te.na") } </li>
+    < li > { t("com.tuer") } </li>
+    < li > { t("re.te") } </li>
                 </ul>
               </div>
 
               {/* Card 6 */}
               <div className="bg-white shadow-md rounded-xl p-6 text-left">
                 <h3 className="text-green-600 font-semibold text-lg mb-3">
-                  6. Feedback & Continuous Improvement
+  6. 
+                    {t("fe.ba")}
                 </h3>
-                <ul className="list-disc list-inside text-gray-600 space-y-1">
-                  <li>Quarterly customer surveys.</li>
-                  <li>Performance reviews with partners.</li>
-                  <li>Process optimization technological advancements.</li>
+  < ul className = "list-disc list-inside text-gray-600 space-y-1" >
+    <li>
+    { t("cu.to") } </li>
+    < li > { t("re.vie") } </li>
+    < li > { t("pro.cess") } </li>
                 </ul>
               </div>
             </div>
@@ -522,13 +504,15 @@ const Service = () => {
             <img src="file-icon.png" alt="Hero equipment" className="my-4" />
           </div>
           <h3 className="text-2xl font-bold text-[#599E0E] mb-4">
-            Have a Project in mind?
+
+              {t("have.mi")}
           </h3>
           <button
             onClick={() => navigate("/project")}
             className="bg-[#599E0E] text-white px-8 py-3 rounded-full font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 mt-8"
           >
-            Let’s get to Work
+
+              {t("wor.to")}
           </button>
         </div>
         {/* Footer */}
