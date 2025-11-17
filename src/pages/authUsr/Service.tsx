@@ -191,7 +191,7 @@ const Service = () => {
                   <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                     {t("supply")}
                   </h3>
-                  <p className="text-gray-700 mb-4 font-bold">
+                  <p className="text-gray-700 mb-4 font-bold text-justify">
                     {t("patient.care")}
                   </p>
                   <a href="#" className="text-[#599E0E] font-semibold">
@@ -218,12 +218,11 @@ const Service = () => {
                   <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                     {t("training")}
                   </h3>
-                  <p className="text-gray-700 mb-4 font-bold">
-                    { t("ad.ensuring") }
+                  <p className="text-gray-700 mb-4 font-bold text-justify">
+                    {t("ad.ensuring")}
                   </p>
-                    
+
                   <a href="#" className="text-[#599E0E] font-semibold">
-  
                     {t("le.mo")}
                   </a>
                 </motion.div>
@@ -245,15 +244,10 @@ const Service = () => {
                     />
                   </div>
                   <h3 className="text-xl font-bold text-[#599E0E] mb-3">
-                 
                     {t("main.ten")}
                   </h3>
-                  <p className="text-gray-700 mb-4 font-bold">
-                  
-                      {t("off.er")}
-                  </p>
+                  <p className="text-gray-700 mb-4 font-bold text-justify">{t("off.er")}</p>
                   <a href="#" className="text-[#599E0E] font-semibold">
-  
                     {t("l.mor")}
                   </a>
                 </motion.div>
@@ -283,13 +277,9 @@ const Service = () => {
                   className="rounded-lg my-2"
                 />
                 <h2 className="text-3xl font-bold  mb-6">
- 
-                    {t("stake.holders")}
+                  {t("stake.holders")}
                 </h2>
-                <p className="text-gray-700">
-             
-                    {t("goal.meet")}
-                </p>
+                <p className="text-gray-700 text-justify">{t("goal.meet")}</p>
               </div>
             </motion.div>
 
@@ -342,13 +332,10 @@ const Service = () => {
                   className="rounded-lg my-2"
                 />
                 <h2 className="text-2xl font-bold  mb-6">
-                     { " " }
+                  {" "}
                   {t("with.create")}
                 </h2>
-                <p className="text-gray-700">
-                 
-                    {t("in.inspire")}
-                </p>
+                <p className="text-gray-700 text-justify">{t("in.inspire")}</p>
               </div>
             </motion.div>
           </div>
@@ -372,14 +359,8 @@ const Service = () => {
                   alt="Hero equipment"
                   className="rounded-lg my-2"
                 />
-                <h2 className="text-3xl font-bold  mb-6">
-                          { " " }
-                  {t("ex.now")}
-                </h2>
-                <p className="text-gray-700">
-                  
-                    {t("mak.com")}
-                </p>
+                <h2 className="text-3xl font-bold  mb-6"> {t("ex.now")}</h2>
+                <p className="text-gray-700 text-justify">{t("mak.com")}</p>
               </div>
             </motion.div>
 
@@ -402,14 +383,13 @@ const Service = () => {
         <section className="bg-gray-100 py-16">
           <div className="max-w-6xl mx-auto px-6 text-center">
             {/* Titre */}
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 ">
               <span className="border-b-4 border-green-600 pb-1">
                 {t("our.operational")}
               </span>
             </h2>
-            <p className="text-gray-600 max-w-3xl mx-auto mb-12">
-              
-                {t("to.rig")}
+            <p className="text-gray-600 max-w-3xl mx-auto mb-12 text-justify">
+              {t("to.rig")}
             </p>
 
             {/* Grille */}
@@ -417,16 +397,13 @@ const Service = () => {
               {/* Card 1 */}
               <div className="bg-white shadow-md rounded-xl p-6 text-left">
                 <h3 className="text-green-600 font-semibold text-lg mb-3">
-  1.
-                    {t("au.dit")}
+                  1.
+                  {t("au.dit")}
                 </h3>
-  < ul className = "list-disc list-inside text-gray-600 space-y-1" >
-    <li>
-   
-    { t("sm.ile") }
-    </li>
-    < li > { t("dia.gn") } </li>
-    < li > { t("cu.st") } </li>
+                <ul className="list-disc list-inside text-gray-600 space-y-1">
+                  <li>{t("sm.ile")}</li>
+                  <li> {t("dia.gn")} </li>
+                  <li> {t("cu.st")} </li>
                 </ul>
               </div>
 
@@ -435,64 +412,62 @@ const Service = () => {
                 <h3 className="text-green-600 font-semibold text-lg mb-3">
                   2. {t("pro.cu")}
                 </h3>
-  < ul className = "list-disc list-inside text-gray-600 space-y-1" >
-    <li>{ t("with.ce") } </li>
-    < li > { t("ex.pe") } </li>
-    < li > { t("con.trol") } </li>
+                <ul className="list-disc list-inside text-gray-600 space-y-1">
+                  <li>{t("with.ce")} </li>
+                  <li> {t("ex.pe")} </li>
+                  <li> {t("con.trol")} </li>
                 </ul>
               </div>
 
               {/* Card 3 */}
               <div className="bg-white shadow-md rounded-xl p-6 text-left">
                 <h3 className="text-green-600 font-semibold text-lg mb-3">
-  3.
-                    {t("de.li")}
+                  3.
+                  {t("de.li")}
                 </h3>
-  < ul className = "list-disc list-inside text-gray-600 space-y-1" >
-    <li>{ t("se.cure") } </li>
-    < li > { t("tr.re") } </li>
-    < li > { t("t.re") } </li>
+                <ul className="list-disc list-inside text-gray-600 space-y-1">
+                  <li>{t("se.cure")} </li>
+                  <li> {t("tr.re")} </li>
+                  <li> {t("t.re")} </li>
                 </ul>
               </div>
 
               {/* Card 4 */}
               <div className="bg-white shadow-md rounded-xl p-6 text-left">
                 <h3 className="text-green-600 font-semibold text-lg mb-3">
-  4. 
-                    {t("ta.in")}
+                  4.
+                  {t("ta.in")}
                 </h3>
-  < ul className = "list-disc list-inside text-gray-600 space-y-1" >
-    <li>{ t("ha.nd") } </li>
-    < li > { t("us.er") } </li>
-    < li > { t("ce.ti") } </li>
+                <ul className="list-disc list-inside text-gray-600 space-y-1">
+                  <li>{t("ha.nd")} </li>
+                  <li> {t("us.er")} </li>
+                  <li> {t("ce.ti")} </li>
                 </ul>
               </div>
 
               {/* Card 5 */}
               <div className="bg-white shadow-md rounded-xl p-6 text-left">
                 <h3 className="text-green-600 font-semibold text-lg mb-3">
-  5. 
-                    {t("su.po")}
+                  5.
+                  {t("su.po")}
                 </h3>
-  < ul className = "list-disc list-inside text-gray-600 space-y-1" >
-    <li>
-    { t("te.na") } </li>
-    < li > { t("com.tuer") } </li>
-    < li > { t("re.te") } </li>
+                <ul className="list-disc list-inside text-gray-600 space-y-1">
+                  <li>{t("te.na")} </li>
+                  <li> {t("com.tuer")} </li>
+                  <li> {t("re.te")} </li>
                 </ul>
               </div>
 
               {/* Card 6 */}
               <div className="bg-white shadow-md rounded-xl p-6 text-left">
                 <h3 className="text-green-600 font-semibold text-lg mb-3">
-  6. 
-                    {t("fe.ba")}
+                  6.
+                  {t("fe.ba")}
                 </h3>
-  < ul className = "list-disc list-inside text-gray-600 space-y-1" >
-    <li>
-    { t("cu.to") } </li>
-    < li > { t("re.vie") } </li>
-    < li > { t("pro.cess") } </li>
+                <ul className="list-disc list-inside text-gray-600 space-y-1">
+                  <li>{t("cu.to")} </li>
+                  <li> {t("re.vie")} </li>
+                  <li> {t("pro.cess")} </li>
                 </ul>
               </div>
             </div>
@@ -504,15 +479,13 @@ const Service = () => {
             <img src="file-icon.png" alt="Hero equipment" className="my-4" />
           </div>
           <h3 className="text-2xl font-bold text-[#599E0E] mb-4">
-
-              {t("have.mi")}
+            {t("have.mi")}
           </h3>
           <button
             onClick={() => navigate("/project")}
             className="bg-[#599E0E] text-white px-8 py-3 rounded-full font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 mt-8"
           >
-
-              {t("wor.to")}
+            {t("wor.to")}
           </button>
         </div>
         {/* Footer */}

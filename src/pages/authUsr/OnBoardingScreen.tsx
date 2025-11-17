@@ -313,7 +313,7 @@ export default function LandingPagePrecise() {
                   <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                     {t("digital")}
                   </h3>
-                  <p className="text-gray-700 mb-4 font-bold">
+                  <p className="text-gray-700 mb-4 font-bold text-justify">
                     {t("enhance.your")}
                   </p>
                   <a href="#" className="text-[#599E0E] font-semibold">
@@ -340,7 +340,7 @@ export default function LandingPagePrecise() {
                   <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                     {t("content")}
                   </h3>
-                  <p className="text-gray-700 mb-4 font-bold">
+                  <p className="text-gray-700 mb-4 font-bold text-justify">
                     {t("our.content")}
                   </p>
                   <a href="#" className="text-[#599E0E] font-semibold">
@@ -367,7 +367,7 @@ export default function LandingPagePrecise() {
                   <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                     {t("google")}
                   </h3>
-                  <p className="text-gray-700 mb-4 font-bold">
+                  <p className="text-gray-700 mb-4 font-bold text-justify">
                     {t("maxime.your")}
                   </p>
                   <a href="#" className="text-[#599E0E] font-semibold">
@@ -425,14 +425,14 @@ export default function LandingPagePrecise() {
               <h2 className="text-3xl font-bold text-[#599E0E] mb-6">
                 {t("how.can")}
               </h2>
-              <p className="max-w-3xl mx-auto text-gray-700 mb-8 font-bold">
+              <p className="max-w-3xl mx-auto text-gray-700 mb-8 font-bold text-justify">
                 {t("with.our")}
               </p>
               <div className="max-w-xl mx-auto p-8 rounded-lg shadow">
                 <h3 className="text-xl font-bold text-[#599E0E] mb-4">
                   {t("unlimit")}
                 </h3>
-                <p className="text-gray-700 font-bold">{t("our.high")}</p>
+                <p className="text-gray-700 font-bold text-justify">{t("our.high")}</p>
               </div>
             </motion.div>
           </div>
@@ -653,7 +653,7 @@ export default function LandingPagePrecise() {
               <h2 className="text-3xl font-bold text-[#599E0E] mb-12 text-center">
                 {t("more.info")}
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-justify">
                 {cards.map((card, index) => (
                   <motion.div
                     key={card.title}

@@ -187,7 +187,7 @@ const Consumable = () => {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                   louses jetables / Tabliers
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   Vêtements de protection à usage unique portés par le personnel
                   médical pour prévenir les contaminations croisées et maintenir
                   l’hygiène lors des soins ou interventions.
@@ -211,7 +211,7 @@ const Consumable = () => {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                   Thermosondes souples
                 </h3>
-                <p className="text-gray-700 ">
+                <p className="text-gray-700 text-justify">
                   Dispositifs médicaux flexibles utilisés pour mesurer en
                   continu la température corporelle des patients de manière
                   précise et confortable.
@@ -235,7 +235,7 @@ const Consumable = () => {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                   Aiguilles hypodermiques
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   Petites aiguilles stériles utilisées pour injecter des
                   substances ou prélever des liquides directement sous la peau
                   ou dans les tissus profonds.
@@ -258,7 +258,7 @@ const Consumable = () => {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                   Solutions stériles de rinçage
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   Liquides médicaux stériles utilisés pour nettoyer, irriguer ou
                   hydrater les tissus corporels lors de procédures médicales ou
                   chirurgicales.
@@ -282,7 +282,7 @@ const Consumable = () => {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                   Tubes à urine
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   Récipients stériles conçus pour recueillir, stocker et
                   transporter des échantillons d'urine à des fins d'analyse
                   médicale.
@@ -306,7 +306,7 @@ const Consumable = () => {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                   Masques chirurgicaux / FFP2
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   Dispositifs de protection respiratoire conçus pour filtrer les
                   particules et limiter la transmission des agents infectieux
                   entre le personnel médical et les patients.

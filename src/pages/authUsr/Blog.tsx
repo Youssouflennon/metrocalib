@@ -179,11 +179,11 @@ const Blog = () => {
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-4xl font-semibold text-gray-700 mb-12 text-center">
               <span className="font-bold border-b-4 border-green-600 pb-1">
-             {t("blog")}   
+                {t("blog")}
               </span>
             </h2>
             <p className="text-gray-700 max-w-3xl mx-auto mb-12">
-               {t("METROCALIB")}  
+              {t("METROCALIB")}
             </p>
 
             {/* grille 2 colonnes */}
@@ -324,7 +324,7 @@ const Blog = () => {
             <h2 className="text-4xl font-bold text-[#599E0E] mb-12 text-center">
               {t("platforms")}
             </h2>
-            <p className="text-gray-700 max-w-3xl mx-auto mb-12">
+            <p className="text-gray-700 max-w-3xl mx-auto mb-12 text-justify">
               {t("platforms-description")}
             </p>
 
