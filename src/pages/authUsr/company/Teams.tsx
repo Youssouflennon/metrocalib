@@ -198,7 +198,7 @@ const Teams = () => {
                 Blog - Our Teams
               </span>
             </h2>{" "}
-            <p className="text-gray-700 max-w-3xl mx-auto mb-12">
+            <p className="text-gray-700 max-w-3xl mx-auto mb-12 text-justify">
               At METROCALIB, our team is comprised of dedicated professionals
               with diverse expertise in the biomedical field. We are passionate
               about delivering exceptional service and innovative solutions to
@@ -228,7 +228,7 @@ const Teams = () => {
                   <h3 className="text-lg font-bold text-[#599E0E]">
                     {item.title}
                   </h3>
-                  <p className="text-gray-600 text-sm mt-2">
+                  <p className="text-gray-600 text-sm mt-2 text-justify">
                     {item.description}
                   </p>
                 </motion.div>

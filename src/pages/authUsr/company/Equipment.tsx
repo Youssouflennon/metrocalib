@@ -204,7 +204,7 @@ const Equipment = () => {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                   {t("Electrocardiographe")}
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   {t("electrocardiographe-details")}
                 </p>
               </motion.div>
@@ -226,7 +226,7 @@ const Equipment = () => {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                   Autoclave Médical
                 </h3>
-                <p className="text-gray-700 ">
+                <p className="text-gray-700 text-justify">
                   Stérilise efficacement les instruments médicaux par vapeur
                   sous pression.
                 </p>
@@ -249,7 +249,7 @@ const Equipment = () => {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                   Oxymètre de Pouls
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   Mesure la saturation en oxygène du sang, essentiel pour
                   réanimation.
                 </p>
@@ -271,7 +271,7 @@ const Equipment = () => {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                   Electrocardiographe
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   Mesure l’activité électrique du cœur. Idéal pour diagnostics
                   cardiovasculaires.
                 </p>
@@ -294,7 +294,7 @@ const Equipment = () => {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                   Autoclave Médical
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   Stérilise efficacement les instruments médicaux par vapeur
                   sous pression.
                 </p>
@@ -317,7 +317,7 @@ const Equipment = () => {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                   Oxymètre de Pouls
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   Mesure la saturation en oxygène du sang, essentiel pour
                   réanimation.
                 </p>
@@ -350,7 +350,7 @@ const Equipment = () => {
                     <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                       {card.title}
                     </h3>
-                    <p className="text-gray-700 mb-4 font-bold">{card.text}</p>
+                    <p className="text-gray-700 mb-4 font-bold text-justify">{card.text}</p>
                     <a href="#" className="text-[#599E0E] font-semibold">
                       Learn More &gt;
                     </a>

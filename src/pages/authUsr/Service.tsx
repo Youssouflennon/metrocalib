@@ -191,7 +191,7 @@ const Service = () => {
                   <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                     {t("supply")}
                   </h3>
-                  <p className="text-gray-700 mb-4 font-bold">
+                  <p className="text-gray-700 mb-4 font-bold text-justify">
                     {t("patient.care")}
                   </p>
                   <a href="#" className="text-[#599E0E] font-semibold">
@@ -218,7 +218,7 @@ const Service = () => {
                   <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                     {t("training")}
                   </h3>
-                  <p className="text-gray-700 mb-4 font-bold">
+                  <p className="text-gray-700 mb-4 font-bold text-justify">
                     We empower healthcare professionals through comprehensive
                     training programs and technical consulting, enhancing staff
                     skills and ensuring effective utilization of medical
@@ -248,7 +248,7 @@ const Service = () => {
                   <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                     Installation & Maintenance
                   </h3>
-                  <p className="text-gray-700 mb-4 font-bold">
+                  <p className="text-gray-700 mb-4 font-bold text-justify">
                     Our dedicated team offers expert installation and ongoing
                     maintenance services, including 24/7 emergency support, to
                     ensure that all medical equipment operates smoothly and
@@ -286,7 +286,7 @@ const Service = () => {
                 <h2 className="text-3xl font-bold  mb-6">
                   Strategic support and innovation for healthcare stakeholders{" "}
                 </h2>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   METROCALIB redefines the approach to biomedical services by
                   integrating innovative solutions and creative problem-solving.
                   We understand that the healthcare sector needs more than just
@@ -352,7 +352,7 @@ const Service = () => {
                 <h2 className="text-2xl font-bold  mb-6">
                   Transforming Healthcare with Creativity{" "}
                 </h2>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   METROCALIB redefines the approach to biomedical services by
                   integrating innovative solutions and creative problem-solving.
                   We understand that the healthcare sector needs more than just
@@ -390,7 +390,7 @@ const Service = () => {
                 <h2 className="text-3xl font-bold  mb-6">
                   Strategic Experiences and visual Appeal{" "}
                 </h2>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   At METROCALIB, we leverage our strategic experience in the
                   biomedical industry to provide solutions that are not only
                   functional but also visually appealing. Our expertise in
@@ -431,7 +431,7 @@ const Service = () => {
                 {t("our.operational")}
               </span>
             </h2>
-            <p className="text-gray-600 max-w-3xl mx-auto mb-12">
+            <p className="text-gray-600 max-w-3xl mx-auto mb-12 text-justify">
               At METROCALIB, we adhere to rigorous procedures designed to
               guarantee quality, compliance, and efficiency at every stage of
               our operations.

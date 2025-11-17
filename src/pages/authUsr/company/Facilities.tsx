@@ -285,7 +285,7 @@ const Facilities = () => {
             <h2 className="text-4xl font-bold text-[#599E0E] mb-12">
               <span className="text-[#1aafc9e2]"> Our</span> Achievements
             </h2>
-            <p className="text-gray-700 max-w-3xl mx-auto mb-12">
+            <p className="text-gray-700 max-w-3xl mx-auto mb-12 text-justify">
               At METROCALIB, we take pride in our innovative approach to
               biomedical solutions, ensuring that our services not only meet
               your needs but also enhance the overall healthcare experience.
