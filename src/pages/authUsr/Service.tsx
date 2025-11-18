@@ -18,6 +18,7 @@ const Service = () => {
   const menuItems = [
     { name: "Home", href: "/" },
     { name: "Services", href: "/service" },
+    { name: "Production", href: "/production" },
     { name: "Projects", href: "/project" },
     { name: "Blog", href: "/blog" },
   ];
@@ -246,7 +247,9 @@ const Service = () => {
                   <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                     {t("main.ten")}
                   </h3>
-                  <p className="text-gray-700 mb-4 font-bold text-justify">{t("off.er")}</p>
+                  <p className="text-gray-700 mb-4 font-bold text-justify">
+                    {t("off.er")}
+                  </p>
                   <a href="#" className="text-[#599E0E] font-semibold">
                     {t("l.mor")}
                   </a>

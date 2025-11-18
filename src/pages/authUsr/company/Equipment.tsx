@@ -40,6 +40,7 @@ const Equipment = () => {
   const menuItems = [
     { name: "Home", href: "/" },
     { name: "Services", href: "/service" },
+    { name: "Production", href: "/production" },
     { name: "Projects", href: "/project" },
     { name: "Blog", href: "/blog" },
   ];
@@ -183,9 +184,7 @@ const Equipment = () => {
               </span>
             </h2>
 
-            <p className="mb-14 text-center">
-              {t("equipment-description")}
-            </p>
+            <p className="mb-14 text-center">{t("equipment-description")}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Carte 1 */}
               <motion.div
@@ -332,10 +331,7 @@ const Equipment = () => {
               <h2 className="text-4xl font-bold  mb-12 text-center">
                 {t("Information")}
               </h2>
-              <p className="my-4 text-center">
-                {t("Information-details")}
-              
-              </p>
+              <p className="my-4 text-center">{t("Information-details")}</p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {cards.map((card, index) => (
                   <motion.div
@@ -350,7 +346,9 @@ const Equipment = () => {
                     <h3 className="text-xl font-bold text-[#599E0E] mb-3">
                       {card.title}
                     </h3>
-                    <p className="text-gray-700 mb-4 font-bold text-justify">{card.text}</p>
+                    <p className="text-gray-700 mb-4 font-bold text-justify">
+                      {card.text}
+                    </p>
                     <a href="#" className="text-[#599E0E] font-semibold">
                       Learn More &gt;
                     </a>
