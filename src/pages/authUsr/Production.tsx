@@ -1,32 +1,24 @@
 import React, { useState } from "react";
-
-/**
- * LandingPagePrecise.tsx
- * Place images dans public/assets:
- * - /assets/logo.png
- * - /assets/hero-machine.png
- * - /assets/doctor.png
- * - /assets/partner1.png ... partner4.png
- * - /assets/equip1.png equip2.png equip3.png
- * - /assets/ach1.jpg ... ach4.jpg
- * - /assets/client1.png client2.png client3.png
- * - /assets/monitor.png
- */
-import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
+import { useTranslation } from "src/hooks/useTranslation";
+import { useI18nStore } from "src/store/i18n/i18nStore";
+import { ChevronDown, Menu } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuTrigger,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-} from "../../../components/components/ui/dropdown-menu";
-import { ChevronDown, Menu } from "lucide-react";
-import Pieds from "../componenet/Pieds";
-import { useI18nStore } from "src/store/i18n/i18nStore";
-import { useTranslation } from "src/hooks/useTranslation";
-const Teams = () => {
-  const [active, setActive] = useState("");
+  DropdownMenuTrigger,
+} from "../../components/components/ui/dropdown-menu";
+import { motion } from "framer-motion";
+import Pieds from "./componenet/Pieds";
+import AcideConcentreProcess from "./Acide";
+
+const Production = () => {
+  const navigate = useNavigate();
+
+  const [active, setActive] = useState("Production");
 
   const menuItems = [
     { name: "Home", href: "/" },
@@ -35,11 +27,6 @@ const Teams = () => {
     { name: "Projects", href: "/project" },
     { name: "Blog", href: "/blog" },
   ];
-
-  const imageVariant = {
-    hidden: { opacity: 0, y: 100 },
-    visible: { opacity: 1, y: 0 },
-  };
 
   const menuItemsCompany = [
     { name: "About", href: "/about" },
@@ -50,30 +37,10 @@ const Teams = () => {
     { name: "Contact", href: "/contact" },
   ];
 
-  const images = [
-    {
-      src: "team1.jpg",
-      title: "Formation en Chine",
-      description:
-        "Appareil utilisé pour mesurer l'activité électrique du cœur. Idéal pour les diagnostics cardiovasculaires.",
-    },
-    {
-      src: "team2.jpg",
-      title: "Formation en Chine",
-      description:
-        "Stérilise efficacement les instruments médicaux par vapeur sous pression. Utilisé dans tous les centres de santé.",
-    },
-    {
-      src: "team4.jpg",
-      title: "Formation en Chine",
-      description:
-        "Stérilise efficacement les instruments médicaux par vapeur sous pression. Utilisé dans tous les centres de santé.",
-    },
-  ];
-
   const { language, setLanguage } = useI18nStore();
 
   const { t } = useTranslation();
+
   return (
     <div className="flex flex-col h-full font-sans">
       <div className="fixed bottom-4 right-4 z-50">
@@ -95,7 +62,8 @@ const Teams = () => {
           </button>
         </div>
       </div>
-      <div className="container mx-auto px-14">
+
+      <div className="container mx-auto px-14 ">
         <header className="">
           <div className="container mx-auto px-6 py-4 flex justify-between items-center">
             {/* Logo à 50% */}
@@ -124,14 +92,14 @@ const Teams = () => {
                       : "text-gray-700 hover:text-green-500"
                   }`}
                 >
-                  {item.name}
+                  {t(item.name)}
                 </a>
               ))}
 
               <DropdownMenu>
                 <DropdownMenuTrigger className="font-semibold transition-colors bg-transparent border-0">
                   <span className="flex gap-1 items-center font-bold">
-                    Company
+                    {t("Company")}
                     <ChevronDown size={16} />
                   </span>
                 </DropdownMenuTrigger>
@@ -192,52 +160,16 @@ const Teams = () => {
           </div>
         </header>
 
-        <section className="py-20">
-          <div className="container mx-auto px-6 text-center">
-            <h2 className="text-4xl font-semibold text-gray-700 mb-12 text-center">
-              <span className="font-bold border-b-4 border-green-600 pb-1">
-                Blog - Our Teams
-              </span>
-            </h2>{" "}
-            <p className="text-gray-700 max-w-3xl mx-auto mb-12 text-justify">
-              At METROCALIB, our team is comprised of dedicated professionals
-              with diverse expertise in the biomedical field. We are passionate
-              about delivering exceptional service and innovative solutions to
-              enhance healthcare delivery. With a strong commitment to
-              collaboration and continuous improvement, our experts work
-              together to ensure that every project meets the highest standards
-              of quality and efficiency. Together, we strive to empower
-              healthcare institutions and contribute positively to patient care.
-            </p>
-            {/* grille 2 colonnes */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {images.map((item, index) => (
-                <motion.div
-                  key={item.src}
-                  className="w-full overflow-hidden rounded-lg shadow-lg bg-white flex flex-col items-center text-center p-4"
-                  variants={imageVariant}
-                  initial="hidden"
-                  whileInView="visible"
-                  transition={{ duration: 0.8, delay: index * 0.2 }}
-                  viewport={{ once: false, amount: 0.2 }}
-                >
-                  <img
-                    src={item.src}
-                    alt={item.title}
-                    className="w-full h-64 object-cover rounded-lg mb-4"
-                  />
-                  <h3 className="text-lg font-bold text-[#599E0E]">
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm mt-2 text-justify">
-                    {item.description}
-                  </p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
+        <section
+          id="process-acide"
+          className="mt-10 mb-16 bg-white shadow-md rounded-xl p-6 border"
+        >
+          <h2 className="text-2xl font-bold mb-4 text-[#599E0E]">
+            Procédé de Fabrication – Concentré d’Acide
+          </h2>
 
+          <AcideConcentreProcess />
+        </section>
         <motion.footer
           className="bg-[#599E0E] text-white  rounded-lg mb-4"
           initial={{ opacity: 0, y: 50 }}
@@ -252,4 +184,4 @@ const Teams = () => {
   );
 };
 
-export default Teams;
+export default Production;

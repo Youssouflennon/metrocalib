@@ -23,6 +23,7 @@ const About = () => {
   const menuItems = [
     { name: "Home", href: "/" },
     { name: "Services", href: "/service" },
+    { name: "Production", href: "/production" },
     { name: "Projects", href: "/project" },
     { name: "Blog", href: "/blog" },
   ];

@@ -67,6 +67,7 @@ export default function LandingPagePrecise() {
   const menuItems = [
     { name: "Home", href: "/" },
     { name: "Services", href: "/service" },
+    { name: "Production", href: "/production" },
     { name: "Projects", href: "/project" },
     { name: "Blog", href: "/blog" },
   ];
@@ -432,7 +433,9 @@ export default function LandingPagePrecise() {
                 <h3 className="text-xl font-bold text-[#599E0E] mb-4">
                   {t("unlimit")}
                 </h3>
-                <p className="text-gray-700 font-bold text-justify">{t("our.high")}</p>
+                <p className="text-gray-700 font-bold text-justify">
+                  {t("our.high")}
+                </p>
               </div>
             </motion.div>
           </div>

@@ -29,6 +29,7 @@ import Facilities from "src/pages/authUsr/company/Facilities";
 import Consumable from "src/pages/authUsr/company/Consumable";
 import Teams from "src/pages/authUsr/company/Teams";
 import Contact from "src/pages/authUsr/company/Contact";
+import Production from "src/pages/authUsr/Production";
 
 interface RouteType {
   path: string;
@@ -53,6 +54,12 @@ const routes: RouteType[] = [
     path: "/project",
     element: <SignInLayout />,
     children: [{ path: "/project", element: <Project /> }],
+  },
+
+  {
+    path: "/production",
+    element: <SignInLayout />,
+    children: [{ path: "/production", element: <Production /> }],
   },
 
   {
