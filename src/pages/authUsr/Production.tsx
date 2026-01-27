@@ -165,7 +165,7 @@ const Production = () => {
           className="mt-10 mb-16 bg-white shadow-md rounded-xl p-6 border"
         >
           <h2 className="text-2xl font-bold mb-4 text-[#599E0E]">
-            Procédé de Fabrication – Concentré d’Acide
+               {t("por.tu")}
           </h2>
 
           <AcideConcentreProcess />
