@@ -57,7 +57,7 @@ const Contact = () => {
             className="bg-white border border-gray-500 text-gray-700 px-3 py-1 rounded-full hover:bg-gray-50 transition-colors"
           >
             English
-          </button>
+          </button>03
           <button className="bg-white border border-green-500 text-green-500 px-3 py-1 rounded-full hover:bg-green-50 transition-colors">
             Español
           </button>
@@ -163,13 +163,11 @@ const Contact = () => {
         <section className="bg-gray-50 py-20">
           <div className="container mx-auto px-6">
             <h2 className="text-5xl font-bold mb-12 text-center">
-              Get In Touch
+              {t("get.tor")}
             </h2>
 
             <p className="mb-14 text-center">
-              We’d love to hear from you! For inquiries, consultations, or to
-              learn more about our services, please contact us at: 📞 ‪(+237)
-              673 186 728‬ Home ~ Contact
+            {t("lear.mor")}
             </p>
 
             <div className="flex justify-center items-center bg-gray-50">
@@ -219,7 +217,7 @@ const Contact = () => {
             {/* Colonne gauche : ta section Services */}
             <div>
               <h2 className="text-3xl font-bold text-[#599E0E] mb-12 text-center">
-                Contact with us
+              {t("tied.down")}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                 {/* Digital Marketing */}
@@ -310,10 +308,10 @@ const Contact = () => {
               {/* En-tête */}
               <div className="p-4 border-b">
                 <h2 className="text-lg font-semibold text-gray-800">
-                  📍 Notre localisation
+               {t("try.out")}
                 </h2>
                 <p className="text-sm text-gray-500">
-                  Venez nous rendre visite à notre siège.
+            {t("ve.nez")}
                 </p>
               </div>
 
@@ -339,10 +337,10 @@ const Contact = () => {
             <img src="file-icon.png" alt="Hero equipment" className="my-4" />
           </div>
           <h3 className="text-2xl font-bold text-[#599E0E] mb-4">
-            Have a Project in mind?
+            {t("try.alls")}
           </h3>
           <button className="bg-[#599E0E] text-white px-8 py-3 rounded-lg hover:bg-[#599E0E]">
-            Let’s get to Work
+           {t("have.min")}
           </button>
         </div>
         {/* Footer */}

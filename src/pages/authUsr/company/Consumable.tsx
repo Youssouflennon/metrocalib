@@ -163,12 +163,11 @@ const Consumable = () => {
         <section className="bg-gray-50 py-20">
           <div className="container mx-auto px-6">
             <h2 className="text-5xl font-bold mb-12 text-center">
-              Some of Our Medical Consumables
+              {t("consummable.title")}
             </h2>
 
             <p className="mb-14 text-center">
-              Discover our range of high-quality medical consumables, carefully
-              selected to support daily healthcare procedures.
+             {t("flex.center")}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Carte 1 */}
@@ -186,12 +185,10 @@ const Consumable = () => {
                   className="w-80 h-80 object-contain"
                 />
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
-                  louses jetables / Tabliers
+                    {t("tabl.iers")}
                 </h3>
                 <p className="text-gray-700 text-justify">
-                  Vêtements de protection à usage unique portés par le personnel
-                  médical pour prévenir les contaminations croisées et maintenir
-                  l’hygiène lors des soins ou interventions.
+                  {t("vetement.the")}
                 </p>
               </motion.div>
 
@@ -210,12 +207,10 @@ const Consumable = () => {
                   className="w-80 h-80 object-contain"
                 />
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
-                  Thermosondes souples
+                   {t("soup.les")}
                 </h3>
                 <p className="text-gray-700 text-justify">
-                  Dispositifs médicaux flexibles utilisés pour mesurer en
-                  continu la température corporelle des patients de manière
-                  précise et confortable.
+                 {t("flexi.ble")}
                 </p>
               </motion.div>
 
@@ -234,12 +229,10 @@ const Consumable = () => {
                   className="w-80 h-80 object-contain"
                 />
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
-                  Aiguilles hypodermiques
+                  {t("hypo.dermi")}
                 </h3>
                 <p className="text-gray-700 text-justify">
-                  Petites aiguilles stériles utilisées pour injecter des
-                  substances ou prélever des liquides directement sous la peau
-                  ou dans les tissus profonds.
+                  {t("pet.ti")}
                 </p>
               </motion.div>
 
@@ -257,12 +250,10 @@ const Consumable = () => {
                   className="w-80 h-80 object-contain"
                 />
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
-                  Solutions stériles de rinçage
+                {t("rin.tage")}
                 </h3>
                 <p className="text-gray-700 text-justify">
-                  Liquides médicaux stériles utilisés pour nettoyer, irriguer ou
-                  hydrater les tissus corporels lors de procédures médicales ou
-                  chirurgicales.
+                 {t("prof.file")}
                 </p>
               </motion.div>
 
@@ -281,12 +272,10 @@ const Consumable = () => {
                   className="w-80 h-80 object-contain"
                 />
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
-                  Tubes à urine
+                 {t("urin.ne")}
                 </h3>
                 <p className="text-gray-700 text-justify">
-                  Récipients stériles conçus pour recueillir, stocker et
-                  transporter des échantillons d'urine à des fins d'analyse
-                  médicale.
+                 {t("ster.ril")}
                 </p>
               </motion.div>
 
@@ -305,12 +294,10 @@ const Consumable = () => {
                   className="w-80 h-80 object-contain"
                 />
                 <h3 className="text-xl font-bold text-[#599E0E] mb-3">
-                  Masques chirurgicaux / FFP2
+                  {t("sce.ma")}
                 </h3>
                 <p className="text-gray-700 text-justify">
-                  Dispositifs de protection respiratoire conçus pour filtrer les
-                  particules et limiter la transmission des agents infectieux
-                  entre le personnel médical et les patients.
+                 {t("dis.pos")}
                 </p>
               </motion.div>
             </div>

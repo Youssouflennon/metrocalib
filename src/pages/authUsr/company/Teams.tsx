@@ -196,18 +196,11 @@ const Teams = () => {
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-4xl font-semibold text-gray-700 mb-12 text-center">
               <span className="font-bold border-b-4 border-green-600 pb-1">
-                Blog - Our Teams
+                {t("blog.tea")}
               </span>
             </h2>{" "}
             <p className="text-gray-700 max-w-3xl mx-auto mb-12 text-justify">
-              At METROCALIB, our team is comprised of dedicated professionals
-              with diverse expertise in the biomedical field. We are passionate
-              about delivering exceptional service and innovative solutions to
-              enhance healthcare delivery. With a strong commitment to
-              collaboration and continuous improvement, our experts work
-              together to ensure that every project meets the highest standards
-              of quality and efficiency. Together, we strive to empower
-              healthcare institutions and contribute positively to patient care.
+              {t("meteor.try")}
             </p>
             {/* grille 2 colonnes */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

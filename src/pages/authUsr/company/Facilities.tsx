@@ -231,13 +231,12 @@ const Facilities = () => {
         <section className="py-20 container mx-auto px-6 space-y-20">
           <h2 className="text-4xl font-semibold text-gray-700 mb-12 text-center">
             <span className="font-bold border-b-4 border-green-600 pb-1">
-              Our Facilities
+              {t("facil.ities")}
             </span>
           </h2>
 
           <p className="text-center my-5">
-            Explore our diverse portfolio showcasing our commitment to
-            excellence in biomedical solutions and healthcare services.
+           {t("boss.man")}
           </p>
           {items.map((item, i) => (
             <motion.div
@@ -287,9 +286,7 @@ const Facilities = () => {
               <span className="text-[#1aafc9e2]"> Our</span> Achievements
             </h2>
             <p className="text-gray-700 max-w-3xl mx-auto mb-12 text-justify">
-              At METROCALIB, we take pride in our innovative approach to
-              biomedical solutions, ensuring that our services not only meet
-              your needs but also enhance the overall healthcare experience.
+             {t("only.meet")}
             </p>
 
             {/* grille 2 colonnes */}
@@ -320,13 +317,13 @@ const Facilities = () => {
             <img src="file-icon.png" alt="Hero equipment" className="my-4" />
           </div>
           <h3 className="text-2xl font-bold text-[#599E0E] mb-4">
-            Have a Project in mind?
+           {t("project.in")}
           </h3>
           <button
             onClick={() => navigate("/project")}
             className="bg-[#599E0E] text-white px-8 py-3 rounded-full font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 mt-8"
           >
-            Let’s get to Work
+          {t("zot.to")}
           </button>
         </div>
         {/* Footer */}
